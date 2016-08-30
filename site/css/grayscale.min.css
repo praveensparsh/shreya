@@ -11,3 +11,9 @@
  .carousel-inner img {
   margin: auto;
 }
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
