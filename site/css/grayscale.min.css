@@ -17,3 +17,84 @@
 .morelink {
     display: block;
 }
+
+ #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  #menu-categories-title + div {
+  margin-bottom: 50px;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+#heading {
+	position: absolute;
+	 top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color:#fff;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+    color:#fff;
+    /*font-weight: bold;*/
+  color: #42DCA3;
+  /*font-size: 1.2em;*/
+  /*text-transform: uppercase;*/
+  /*background-color: #000;*/
+  opacity: 1;
+}
+
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+#solo
+{
+	position: absolute;
+	 top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color:black;
+
+}
+#solocontent
+{
+	position: absolute;
+	 bottom:0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  color:black;
+}
