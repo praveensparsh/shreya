@@ -98,3 +98,41 @@
   text-align: center;
   color:black;
 }
+h2
+{
+  text-align: center;
+}
+
+/*Audio player */
+      #playlist{
+            list-style: none;
+             text-align: justify;
+
+        }
+        #playlist li a{
+            color:#42DCA3;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:white;
+        }
+
+/*press */
+#reportOptionsHidden {
+  display: none;
+}
+button {
+    background-color: #42DCA3; /* Green */
+    border: none;
+    color: black;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
